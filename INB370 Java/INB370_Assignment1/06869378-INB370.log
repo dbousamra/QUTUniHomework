@@ -1,0 +1,540 @@
+Testing Log for student 06869378-INB370
+File extraction complete
+Compiling...
+./submissions/tests/06869378-INB370/asgn1Solution/LedgerTest.java:17: unreported exception asgn1Question.WarehouseException; must be caught or declared to be thrown
+		ledger = new WarehouseLedger(20, 80, 5, 8, 50);
+		         ^
+1 error
+Compilation completed.
+
+###################################
+# Testing student implementation  #
+###################################
+
+Ledger Implementation Results:  0 / 41
+Transactions Implementation Results:  0 / 25
+
+############################################
+# Testing student tests against good impl  #
+############################################
+
+No student Ledger Tests found
+No student Transactions Tests found
+
+Failure details for student Ledger against our tests:
+-----------------------------------------------------------
+1) DayInitialised(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+2) CashInitialised(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+3) StockInitialised(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+4) InsolventLedgerConstructed(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+5) NegativeInitialStock(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+6) NegativeWholesaleCost(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+7) WholesaleCostExceedsRetailPrice(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+8) NegativeDeliverySurcharge(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+9) WholesaleEqualsRetail(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+10) NoInitialStock(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+11) NoInitialCashReserve(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+12) GettingStockForFree(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+13) GivingFreeStockAway(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+14) NoDeliveryCharge(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+15) WarehouseLedgerConstructed(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+16) NextDayChangesDay(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+17) SellingItemsDayUnchanged(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+18) SellingItemsCashIncreased(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+19) SellingItemsStockReduced(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+20) BuyingItemsDayUnchanged(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+21) BuyingItemsCashReduced(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+22) BuyingItemsStockIncreased(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+23) RunningOutOfStockCashIncreased(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+24) RunningOutOfStockNoStockLeft(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+25) GoingIntoDebtCashNegative(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+26) GoingIntoDebtStockIncreased(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+27) PreviousDaysCashRemembered(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+28) PreviousDaysStockRemembered(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+29) TransactionsCarryAcrossDays(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+30) LedgerIsLegible(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+31) AttemptToSellNegativeItems(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+32) AttemptToBuyNegativeItems(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+33) AttemptToSeeCashBeforeLedgerStarted(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+34) AttemptToSeeStockBeforeLedgerStarted(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+35) AttemptToSeeCashInFuture(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+36) AttemptToSeeStockInFuture(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+37) SellingZeroItems(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+38) BuyingZeroItems(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+39) SellingEntireStock(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+40) CheckingTodaysCashExplicitly(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+41) CheckingTodaysStockExplicitly(asgn1Solution.LedgerTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.LedgerTest.WarehouseLedgerConstructed(LedgerTest.java:145)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+
+Failure details for student Transactions against our tests:
+-----------------------------------------------------------
+1) WarehouseLedgerConstructed(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+2) JobCompletionInitialised(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+3) OrderFulfillmentInitialised(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+4) InsolvencyStatusInitialised(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+5) NegativeWarehouseCapacity(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+6) NegativeJobDuration(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+7) ZeroJobDuration(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+8) ZeroWarehouseCapacity(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+9) SingleDayJob(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+10) WarehouseTransactionsConstructed(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+11) NegativeWholesalePurchase(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+12) NegativeWholesalePurchaseWithRestocking(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+13) DaysProgressNormally(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+14) DaysProgressNormallyWithRestocking(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+15) RunningOutOfStock(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+16) RunningOutOfStockWithRestocking(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+--
+17) RunningOutOfCash(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+18) MiscellaneousTransactions(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+19) SellingNothingStockUnchanged(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+20) SellingNothingOrderFulfilled(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+21) SellingEverythingNoStockLeft(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+22) SellingEverythingOrderFulfilled(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+23) RestockingAndSellingNothing(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+24) RestockingWhenAlreadyFull(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+--
+25) RunningOutOfCashByPayingForEmptyDeliveryTrucks(asgn1Solution.TransactionsTest)
+java.lang.NoSuchMethodError: asgn1Solution.WarehouseLedger.<init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
+	at asgn1Solution.TransactionsTest.WarehouseTransactionsConstructed(TransactionsTest.java:150)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+
+Failure details for student Ledger Tests against our impl:
+-----------------------------------------------------------
+
+Failure details for student Transactions Tests against our impl:
+-----------------------------------------------------------
+Compiling...
+Compilation completed.
+
+###################################
+# Testing student implementation  #
+###################################
+
+Ledger Implementation Results:  30 / 41
+Transactions Implementation Results:  20 / 25
+
+############################################
+# Testing student tests against good impl  #
+############################################
+
+Ledger Tests:  33 / 33
+Transactions Tests:  21 / 21
+
+Ledger Test Coverage:
+[ ] badLedger_AllowsAttemptToBuyNegativeItems (32 passes, baseline 33)
+[ ] badLedger_AllowsAttemptToSeeCashBeforeLedgerStarted (32 passes, baseline 33)
+[ ] badLedger_AllowsAttemptToSeeCashInFuture (32 passes, baseline 33)
+[ ] badLedger_AllowsAttemptToSeeStockBeforeLedgerStarted (31 passes, baseline 33)
+[ ] badLedger_AllowsAttemptToSeeStockInFuture (32 passes, baseline 33)
+[ ] badLedger_AllowsAttemptToSellNegativeItems (32 passes, baseline 33)
+[X] badLedger_AllowsNegativeDeliverySurcharge (33 passes, baseline 33)
+[X] badLedger_AllowsNegativeInitialStock (33 passes, baseline 33)
+[X] badLedger_AllowsNegativeWholesaleCost (33 passes, baseline 33)
+[X] badLedger_AllowsWholesaleCostExceedsRetailPrice (33 passes, baseline 33)
+[X] badLedger_ErrorOnGettingStockForFree (33 passes, baseline 33)
+[X] badLedger_ErrorOnGivingFreeStockAway (33 passes, baseline 33)
+[X] badLedger_ErrorOnNoDeliveryCharge (33 passes, baseline 33)
+[X] badLedger_ErrorOnNoInitialCashReserve (33 passes, baseline 33)
+[X] badLedger_ErrorOnNoInitialStock (33 passes, baseline 33)
+[ ] badLedger_ErrorOnSellingZeroItems (32 passes, baseline 33)
+[X] badLedger_ErrorOnWholesaleEqualsRetail (33 passes, baseline 33)
+[ ] badLedger_FailsBuyingItemsCashReduced (28 passes, baseline 33)
+[X] badLedger_FailsBuyingItemsDayUnchanged (33 passes, baseline 33)
+[ ] badLedger_FailsBuyingItemsStockIncreased (31 passes, baseline 33)
+[ ] badLedger_FailsBuyingZeroItems (32 passes, baseline 33)
+[ ] badLedger_FailsCashInitialised (26 passes, baseline 33)
+[ ] badLedger_FailsCheckingTodaysCashExplicitly (30 passes, baseline 33)
+[ ] badLedger_FailsCheckingTodaysStockExplicitly (32 passes, baseline 33)
+[ ] badLedger_FailsDayInitialised (18 passes, baseline 33)
+[ ] badLedger_FailsGoingIntoDebtCashNegative (32 passes, baseline 33)
+[X] badLedger_FailsGoingIntoDebtStockIncreased (33 passes, baseline 33)
+[X] badLedger_FailsInsolventLedgerConstructed (33 passes, baseline 33)
+[ ] badLedger_FailsLedgerIsLegible (32 passes, baseline 33)
+[ ] badLedger_FailsNextDayChangesDay (29 passes, baseline 33)
+[ ] badLedger_FailsPreviousDaysCashRemembered (30 passes, baseline 33)
+[ ] badLedger_FailsPreviousDaysStockRemembered (32 passes, baseline 33)
+[ ] badLedger_FailsRunningOutOfStockCashIncreased (32 passes, baseline 33)
+[ ] badLedger_FailsRunningOutOfStockNoStockLeft (32 passes, baseline 33)
+[X] badLedger_FailsSellingEntireStock (33 passes, baseline 33)
+[ ] badLedger_FailsSellingItemsCashIncreased (29 passes, baseline 33)
+[X] badLedger_FailsSellingItemsDayUnchanged (33 passes, baseline 33)
+[ ] badLedger_FailsSellingItemsStockReduced (29 passes, baseline 33)
+[ ] badLedger_FailsStockInitialised (24 passes, baseline 33)
+[ ] badLedger_FailsTransactionsCarryAcrossDays (29 passes, baseline 33)
+
+Ledger Injected Errors Missed: 15 / 40
+
+
+Transactions Test Coverage:
+[X] badTransactions_AllowsNegativeWarehouseCapacity (21 passes)
+[ ] badTransactions_AllowsNegativeWholesalePurchase (20 passes)
+[ ] badTransactions_AllowsNegativeWholesalePurchaseWithRestocking (20 passes)
+[X] badTransactions_AllowsZeroJobDuration (21 passes)
+[X] badTransactions_ErroOnRestockingWhenAlreadyFull (21 passes)
+[ ] badTransactions_ErrorOnRestockingAndSellingNothing (20 passes)
+[ ] badTransactions_ErrorOnRunningOutOfCash (19 passes)
+[ ] badTransactions_ErrorOnSellingEverythingNoStockLeft (16 passes)
+[X] badTransactions_ErrorOnSingleDayJob (21 passes)
+[X] badTransactions_ErrorOnZeroWarehouseCapacity (21 passes)
+[ ] badTransactions_FailsDaysProgressNormally (19 passes)
+[X] badTransactions_FailsDaysProgressNormallyWithRestocking (21 passes)
+[ ] badTransactions_FailsInsolvencyStatusInitialised (17 passes)
+[ ] badTransactions_FailsJobCompletionInitialised (18 passes)
+[X] badTransactions_FailsNegativeJobDuration (21 passes)
+[ ] badTransactions_FailsOrderFulfillmentInitialised (18 passes)
+[ ] badTransactions_FailsRunningOutOfCashByPayingForEmptyDeliveryTrucks (19 passes)
+[ ] badTransactions_FailsRunningOutOfStock (18 passes)
+[ ] badTransactions_FailsRunningOutOfStockWithRestocking (20 passes)
+[X] badTransactions_FailsSellingEverythingOrderFulfilled (21 passes)
+[X] badTransactions_FailsSellingNothingOrderFulfilled (21 passes)
+[ ] badTransactions_FailsSellingNothingStockUnchanged (19 passes)
+
+Transactions Injected Errors Missed: 9 / 22
+
+
+Failure details for student Ledger against our tests:
+-----------------------------------------------------------
+1) NegativeInitialStock(asgn1Solution.LedgerTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+2) NegativeWholesaleCost(asgn1Solution.LedgerTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+3) WholesaleCostExceedsRetailPrice(asgn1Solution.LedgerTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+4) NegativeDeliverySurcharge(asgn1Solution.LedgerTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+5) PreviousDaysCashRemembered(asgn1Solution.LedgerTest)
+java.lang.AssertionError: expected:<100> but was:<95>
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+--
+6) AttemptToSellNegativeItems(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+7) AttemptToBuyNegativeItems(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+8) AttemptToSeeCashBeforeLedgerStarted(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+9) AttemptToSeeStockBeforeLedgerStarted(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+10) AttemptToSeeCashInFuture(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+11) AttemptToSeeStockInFuture(asgn1Solution.LedgerTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+
+Failure details for student Transactions against our tests:
+-----------------------------------------------------------
+1) NegativeWarehouseCapacity(asgn1Solution.TransactionsTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+2) NegativeJobDuration(asgn1Solution.TransactionsTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+3) ZeroJobDuration(asgn1Solution.TransactionsTest)
+java.lang.AssertionError: Expected exception: asgn1Question.WarehouseException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+4) NegativeWholesalePurchase(asgn1Solution.TransactionsTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+--
+5) NegativeWholesalePurchaseWithRestocking(asgn1Solution.TransactionsTest)
+java.lang.Exception: Unexpected exception, expected<asgn1Question.WarehouseException> but was<asgn1Solution.WarehouseException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+
+Failure details for student Ledger Tests against our impl:
+-----------------------------------------------------------
+
+Failure details for student Transactions Tests against our impl:
+-----------------------------------------------------------

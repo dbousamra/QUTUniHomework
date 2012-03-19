@@ -1,0 +1,55 @@
+Results for: 06869378-INB370
+
+Total Mark:     15 / 20
+
+Deductions for code fixes:
+--------------------------
+[ ] Incorrect zip file structure
+[ ] Incorrect WarehouseLedger package
+[ ] Incorrect WarehouseTransactions package
+[ ] Incorrect LedgerTest package
+[ ] Incorrect TransactionsTest package
+[ ] Incorrect LedgerTest class name
+[ ] Incorrect TransactionsTest class name
+[ ] Incorrect test structure resulting in manual testing
+[X] Other: The constructors had the wrong input types and the before methods in the
+           tests were missing throws clauses 
+
+Program Code Marks:
+--------------------------
+[ ] Failed to compile
+
+Functionality:  5 / 7
+Presentation:   3 / 4
+Comments:
+Your implementation passed nearly all of our tests. Unforuntately, you had the
+wrong input types on your constructor; they were specified to be Integers not ints.
+I corrected the problem and re-ran the tests which previously failed. There is
+a deduction in your functionality mark for these corrections.
+
+Your code is almost devoid of comments; you need to provide comments to help lead
+readers through your code. The messages with your exceptions are generally good
+and helpful. You should avoid the pattern:
+if (condition) {
+  return true;
+} else {
+  return false;
+}
+You should prefer return condition; instead.
+
+Unit Test Marks:
+--------------------------
+[ ] Failed to compile
+
+Effectiveness:  4 / 6
+Presentation:   3 / 3
+Comments:
+The tests you submitted failed to compile because the before methods did not have
+throws clauses. I had to fix this to make your tests run so there is a deduction
+in you effectiveness grade as a result. You managed to detect many of the the
+normal case errors we injected, but you missed some of the corner and exception
+cases.
+
+The general structure of the test suite is logical and the method names describe
+the contents of the test. The commenting is haphazard and unusual and should be
+made more clear.

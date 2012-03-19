@@ -1,0 +1,39 @@
+
+typedef unsigned int size_t;
+typedef struct {
+int	_file;			int	_flag;			unsigned _bufsiz;		char	*_ptr;			int	_cnt;			char	*_base;		} FILE;
+extern	FILE _files[32];
+FILE *fopen(char *name, char *mode);
+int   fclose(FILE *fp);
+int   fread(void *buf, int sizelem, int n, FILE *fp);
+int   fwrite(void *buffer,int sizelem, int n,FILE *fp);
+int   feof(FILE *fp);
+int   ferror(FILE *fp);
+int   fflush(FILE *fp);
+void  clearerr(FILE *fp);
+int   fseek(FILE *fp,long offset,int origin);
+long  ftell(FILE *fp);
+int   fscanf(FILE *fp,char *format,...);
+int   scanf(char *format,...);
+int   sscanf(char *buf, char *fmt, ...);
+int   fprintf(FILE *fp, char *fmt, ...);
+int   printf(char *fmt, ...);
+int   sprintf(char *buf, char *fmt, ...);
+int   vsprintf(char *buf, char *fmt, char *args);
+int   fgetc(FILE *fp);
+char *fgets(char *buf, int n, FILE *fp);
+int   getc(FILE *fp);
+int   getchar();
+char *gets(char *buf);
+int   ungetc(int c, FILE *fp);
+int   fputc(int c, FILE *fp);
+int   fputs(char *str, FILE *fp);
+int   putc(int c, FILE *fp);
+int   putchar(int c);
+int   puts(char *str);
+int main() 
+{
+printf("hello, world");
+keypadStruct keyp;
+return 0;
+}

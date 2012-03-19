@@ -1,0 +1,31 @@
+﻿Build started 7/27/2010 1:03:12 AM.
+     1>Project "M:\My Dropbox\Uni\INB265 Systems Programming\tutorial1\tutorial1\tutorial1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\tutorial1.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt display.c keypad.c main.c
+         main.c
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing ')' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing '{' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2059: syntax error : ')'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing ')' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing '{' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2059: syntax error : ')'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\main.c(8): warning C4013: 'keypadFunc' undefined; assuming extern returning int
+         keypad.c
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing ')' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing '{' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2059: syntax error : ')'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing ')' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing '{' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2059: syntax error : ')'
+         display.c
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing ')' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2143: syntax error : missing '{' before '*'
+     1>m:\my dropbox\uni\inb265 systems programming\tutorial1\tutorial1\keypad.h(9): error C2059: syntax error : ')'
+         Generating Code...
+     1>Done Building Project "M:\My Dropbox\Uni\INB265 Systems Programming\tutorial1\tutorial1\tutorial1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.89

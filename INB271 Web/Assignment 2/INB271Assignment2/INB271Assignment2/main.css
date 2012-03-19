@@ -1,0 +1,381 @@
+html, body {
+	/* 0 margin used to remove gap between the edges of browser and containing divs*/
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #ffffff url(img/bg.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3e3e3e;
+	/* Text-align center hack for IE based browsers. Filthy, and cumbersome, but well 
+	recognized as the best way to center divs. Apply text-align: left to all lower divs 
+	if needed */
+	text-align: center
+}
+
+/*
+COLORS: #d01f3c - the pinky red
+		#9e9e9e - the light grey text for menus
+		#3e3e3e - the dark grey for top bar and footer
+
+*/
+
+/* Remove ALL padding and margins from ALL elements. Acts like a reset selector. 
+Used to fix firefox's css rendering of ul tags with unintended padding */
+* {
+   padding:0;
+   margin:0;
+}
+
+#topblackbar
+{
+	height: 10px;
+	background-color: #3e3e3e;
+}
+
+/*Min height/height combo is needed so IE doesn't throw a fit */
+#outercontainer
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -36px;
+}
+
+#innercontainer
+{
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: left;
+	width: 800px;
+}
+
+
+#footer
+{
+	height: 30px;
+	padding-top: 6px;
+	background-color: #3e3e3e;
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+}
+
+/* Using an invisible div to push the footer to the bottom of the page. 
+Height must correspond with how far down I want it when the screen 
+size is smaller then window */
+#push
+{
+	clear:both;
+	height: 50px;
+}
+
+
+#headercontainer
+{
+	background-color: #FFFFFF;
+}
+
+#header
+{
+	width: 800px;
+	height: 60px;
+	margin: auto auto;
+	background-color: #ffffff
+}
+
+#navcontainer
+{
+	text-align: right;
+	padding-top: 23px;
+	font-size: 14px;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+.navlist li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+a.nav:link 
+{ 
+	color: #9e9e9e; 
+}
+
+a.nav:visited 
+{ 
+	color: #9e9e9e; 
+}
+
+a.nav:hover 
+{ 
+	color: #d01f3c; 
+	text-decoration: underline;
+}
+
+
+#contentcontainer
+{
+	padding-bottom: 40px;
+	margin: auto auto;
+	width: 800px;
+	/*Have to apply text-align: left, since IE needed a body text-align: center hack to center divs */
+	text-align: left;
+}
+
+/*FLoated right within sidebar container*/
+#rightsidebar
+{
+	padding-left: 20px;
+	width: 530px;
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right;
+	background-color: #ffffff;
+}
+
+/*FLoated left within sidebar container*/
+#leftsidebar
+{
+	width: 220px;
+	background-color: #ffffff;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#introimages 
+{
+	position:relative;
+	height:300px;
+	margin: 0;
+}
+
+#introimages ul li 
+{
+	float:left;
+	position:absolute;
+	list-style: none;
+}
+
+#introimages ul li img 
+{
+	border: none;
+	padding: 0px;
+	background: #FFF;
+}
+#introimages ul li.show 
+{
+	z-index:500
+}
+
+
+.textbottom 
+{
+	vertical-align: middle;
+} 
+
+.arrows
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+h1
+{
+	color: #d01f3c;
+	font-size: 16px;
+}
+
+h2
+{
+	font-size: 13px;
+	font-weight: bold;	
+}
+
+h3
+{
+	color: #9e9e9e;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.introtexts
+{
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+.newsheadings
+{
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+.newstexts
+{
+	padding-top: 5px;
+	font-size: 11px;
+}
+
+.readmorelink
+{
+	padding-top: 5px;
+	font-size: 11px;
+	color: #d01f3c;
+}
+
+
+.readmorelink a
+{
+	text-decoration:none;
+	color: #d01f3c;
+}
+
+.readmorelink a:hover
+{
+	text-decoration:underline;
+	color: #d01f3c;
+}
+
+.footerlinks
+{
+	padding-top: 5px;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+a.footerlinks:link 
+{ 
+	color: #FFFFFF; 
+}
+
+a.footerlinks:visited 
+{ 
+	color: #FFFFFF; 
+}
+
+a.footerlinks:hover 
+{ 
+	color: #d01f3c; 
+	text-decoration: underline;
+}
+
+#signup
+{
+	width:400px;
+	padding-top: 10px;
+}
+
+.signuplabel
+{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:160px;
+	float:left;
+}
+
+.text
+{
+	width: 200px;
+}
+
+#signup .small
+{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:160px;
+}
+
+.signupinputtext
+{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width: 200px;
+	margin:2px 0 20px 10px;
+}
+
+
+
+/* Because selectboxes dont seem to respond to padding well. Containing it in a div works however.	 */
+#formitemcontainer
+{
+	float: left;
+	padding-top: 6px;
+}
+
+#signup select
+{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:205px;
+	margin:2px 0 20px 10px;
+}
+
+
+
+
+#signup p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+
+#signup button
+{
+	clear:both;
+	margin-left:150px;
+	width:125px;
+	height:31px;
+	background:#666666 url(img/button.png) no-repeat;
+	text-align:center;
+	line-height:31px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.radio
+{
+	display:block;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align:left;
+	font-size: 12px;
+	width: 10px
+	float:left;
+	
+}
+.radiobutton
+{
+	margin-right: 10px;
+}
+
+.checkbox
+{
+	margin-right: 8px;
+}
+

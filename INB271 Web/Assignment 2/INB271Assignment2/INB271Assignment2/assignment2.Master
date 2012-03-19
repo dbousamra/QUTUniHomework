@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="assignment2.master.cs" Inherits="INB271Assignment2.assignment2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Yeronga Kart Club - Signup</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+	<script src="scripts/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="scripts/validation.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="outercontainer">
+		<div id="topblackbar">
+    	</div>
+		<div id="headercontainer">
+			<div id="header">
+						<div id="navcontainer">
+							<ul class="navlist">
+								<li><a href="index.html" class="nav">Home</a></li>
+								<li><a href="#" class="nav">New to Karting?</a></li>
+								<li><a href="signup.html" class="nav">Sign Up</a></li>
+								<li><a href="#" class="nav">Latest Results</a></li>
+								<li><a href="#" class="nav">Events</a></li>
+							</ul>
+						</div>
+			</div>
+		</div>
+    	<div id="innercontainer">
+        	<div id="contentcontainer">
+        	    <asp:ContentPlaceHolder ID="head" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+		    <div id="push"></div>
+		</div>
+	</div>
+		<div id="footer">
+			Copyright © 2010-2010 Dominic Bou-Samra. All Rights Reserved. 
+			<a href="#" class="footerlinks">Privacy Statement</a> |  
+			<a href="#" class="footerlinks">Terms of Use</a> |  
+			<a href="#" class="footerlinks">Contact</a>
+		</div>
+    </form>
+</body>
+</html>
